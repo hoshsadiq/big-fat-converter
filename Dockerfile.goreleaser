@@ -1,0 +1,4 @@
+FROM gcr.io/distroless/static
+COPY bfc /
+USER nonroot
+ENTRYPOINT ["/bfc"]
